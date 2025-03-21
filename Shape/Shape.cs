@@ -28,6 +28,18 @@ namespace Shape
 		public abstract double Perimeter();
 		public abstract double Area();
 
+		public string pop()
+		{
+            if (Area() > Perimeter())
+            {
+                return "Az alakzat kilyukadt";
+            }
+            else
+            {
+                return "Az alakzat rendben van";
+            }
+        }
+
 		public override string? ToString()
 		{
 			return $"{color} - {isHoley} : K {Perimeter()}, T {Area()}";
