@@ -4,7 +4,8 @@
 	{
 		static void Main(string[] args)
 		{
-			Console.WriteLine("Hello, World!");
-		}
+			Rectangle rectangle = new Rectangle(false, "Red", 1, 2);
+            Console.WriteLine(rectangle.ToString());
+        }
 	}
 }
