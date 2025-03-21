@@ -17,8 +17,8 @@ namespace Shape
 			this.width = width;
 		}
 
-		public double Height { get => height; set => height = value; }
-		public double Width { get => width; set => width = value; }
+		public virtual double Height { get => height; set => height = value; }
+		public virtual double Width { get => width; set => width = value; }
 
 		public override double Area()
 		{
